@@ -13,6 +13,7 @@
 		1C9D6C7321777D64003D97B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C9D6C7121777D64003D97B6 /* LaunchScreen.storyboard */; };
 		1C9D6C7B217780B6003D97B6 /* ChemicalElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9D6C7A217780B6003D97B6 /* ChemicalElement.swift */; };
 		1C9D6C7D21778254003D97B6 /* ElementsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9D6C7C21778254003D97B6 /* ElementsTableViewController.swift */; };
+		1C9D6C7F217784F3003D97B6 /* ChemicalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9D6C7E217784F3003D97B6 /* ChemicalCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1C9D6C7421777D64003D97B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C9D6C7A217780B6003D97B6 /* ChemicalElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicalElement.swift; sourceTree = "<group>"; };
 		1C9D6C7C21778254003D97B6 /* ElementsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementsTableViewController.swift; sourceTree = "<group>"; };
+		1C9D6C7E217784F3003D97B6 /* ChemicalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicalCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				1C9D6C7421777D64003D97B6 /* Info.plist */,
 				1C9D6C7A217780B6003D97B6 /* ChemicalElement.swift */,
 				1C9D6C7C21778254003D97B6 /* ElementsTableViewController.swift */,
+				1C9D6C7E217784F3003D97B6 /* ChemicalCell.swift */,
 			);
 			path = ChemistryApp;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				1C9D6C7D21778254003D97B6 /* ElementsTableViewController.swift in Sources */,
 				1C9D6C6921777D63003D97B6 /* AppDelegate.swift in Sources */,
 				1C9D6C7B217780B6003D97B6 /* ChemicalElement.swift in Sources */,
+				1C9D6C7F217784F3003D97B6 /* ChemicalCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
