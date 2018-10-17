@@ -12,7 +12,7 @@
         <scene sceneID="zIX-Yj-erL">
             <objects>
                 <tableViewController id="Zru-Ma-zOE" customClass="ElementsTableViewController" customModule="ChemistryApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="QMQ-pD-coq">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="QMQ-pD-coq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -21,7 +21,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="IZf-CZ-2sc" id="PbE-Lp-FMs">
-                                    <rect key="frame" x="0.0" y="0.0" width="341" height="119.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="341" height="120"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ugq-8d-Ef4">
@@ -40,6 +40,10 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="301" id="AYb-CR-IjG"/>
+                                                <constraint firstAttribute="height" constant="119.5" id="ron-N2-oaT"/>
+                                            </constraints>
                                         </stackView>
                                     </subviews>
                                     <color key="backgroundColor" red="0.2019640207" green="0.21993249649999999" blue="0.28311806919999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -50,6 +54,7 @@
                                         <constraint firstItem="ugq-8d-Ef4" firstAttribute="top" secondItem="PbE-Lp-FMs" secondAttribute="top" id="snz-gS-zDH"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <outlet property="nameSymbolLabel" destination="cPp-ft-iZw" id="p3l-ET-pSy"/>
                                     <outlet property="symbolLabel" destination="47b-dG-BW1" id="Pkg-n0-Gw8"/>
