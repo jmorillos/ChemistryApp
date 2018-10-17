@@ -37,7 +37,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Au" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="47b-dG-BW1">
                                                     <rect key="frame" x="150.5" y="0.0" width="150.5" height="120"/>
                                                     <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="60"/>
-                                                    <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="textColor" red="0.97857660059999996" green="0.37489593030000001" blue="0.0066947345620000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -47,7 +47,7 @@
                                             </constraints>
                                         </stackView>
                                     </subviews>
-                                    <color key="backgroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" red="0.17609012130000001" green="0.71178227660000004" blue="0.69462722539999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstItem="ugq-8d-Ef4" firstAttribute="leading" secondItem="PbE-Lp-FMs" secondAttribute="leading" constant="20" symbolic="YES" id="DuB-1z-inj"/>
                                         <constraint firstAttribute="trailing" secondItem="ugq-8d-Ef4" secondAttribute="trailing" constant="20" symbolic="YES" id="gk9-OL-E0B"/>
@@ -55,7 +55,7 @@
                                         <constraint firstItem="ugq-8d-Ef4" firstAttribute="top" secondItem="PbE-Lp-FMs" secondAttribute="top" id="snz-gS-zDH"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.17609012126922607" green="0.71178227663040161" blue="0.69462722539901733" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <outlet property="nameSymbolLabel" destination="cPp-ft-iZw" id="p3l-ET-pSy"/>
                                     <outlet property="symbolLabel" destination="47b-dG-BW1" id="Pkg-n0-Gw8"/>
@@ -68,7 +68,9 @@
                             <outlet property="delegate" destination="Zru-Ma-zOE" id="2xw-4H-MwD"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Chemistry Elements" id="Z96-3v-wQa"/>
+                    <navigationItem key="navigationItem" title="Chemistry Elements" largeTitleDisplayMode="always" id="Z96-3v-wQa">
+                        <barButtonItem key="backBarButtonItem" title=" " id="OsR-wB-gea"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VHX-ZV-sBL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -97,13 +99,13 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gold" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NEP-wO-6CQ">
                                                 <rect key="frame" x="0.0" y="140" width="144.5" height="70"/>
                                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="60"/>
-                                                <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.97857660059999996" green="0.37489593030000001" blue="0.0066947345620000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="79" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9U-hl-xdD">
                                                 <rect key="frame" x="36" y="280" width="72.5" height="70"/>
                                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="60"/>
-                                                <color key="textColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.17609012126922607" green="0.71178227663040161" blue="0.69462722539901733" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -118,7 +120,8 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.17609012126922607" green="0.71178227663040161" blue="0.69462722539901733" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="LfD-PJ-JLh" firstAttribute="centerX" secondItem="efB-1H-dr7" secondAttribute="centerX" id="XdZ-bP-9FE"/>
                             <constraint firstItem="LfD-PJ-JLh" firstAttribute="centerY" secondItem="efB-1H-dr7" secondAttribute="centerY" id="eUc-gi-pjv"/>
@@ -135,9 +138,17 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="JIG-sP-DMi" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="y7l-b1-iYH">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="y7l-b1-iYH">
+                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="0.97857660055160522" green="0.37489593029022217" blue="0.0066947345621883869" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
