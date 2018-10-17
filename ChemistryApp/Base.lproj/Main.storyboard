@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -25,28 +26,28 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ugq-8d-Ef4">
-                                            <rect key="frame" x="20" y="0.0" width="301" height="119.5"/>
+                                            <rect key="frame" x="20" y="0.0" width="301" height="120"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Symbol" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cPp-ft-iZw">
-                                                    <rect key="frame" x="0.0" y="0.0" width="150.5" height="119.5"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gold" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cPp-ft-iZw">
+                                                    <rect key="frame" x="0.0" y="0.0" width="150.5" height="120"/>
                                                     <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="20"/>
-                                                    <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Symbol" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="47b-dG-BW1">
-                                                    <rect key="frame" x="150.5" y="0.0" width="150.5" height="119.5"/>
-                                                    <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="35"/>
-                                                    <color key="textColor" red="0.0035236042459999999" green="0.56772768500000004" blue="0.57721346620000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Au" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="47b-dG-BW1">
+                                                    <rect key="frame" x="150.5" y="0.0" width="150.5" height="120"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="60"/>
+                                                    <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstAttribute="height" constant="120" id="7Jz-0G-5ld"/>
                                                 <constraint firstAttribute="width" constant="301" id="AYb-CR-IjG"/>
-                                                <constraint firstAttribute="height" constant="119.5" id="ron-N2-oaT"/>
                                             </constraints>
                                         </stackView>
                                     </subviews>
-                                    <color key="backgroundColor" red="0.2019640207" green="0.21993249649999999" blue="0.28311806919999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstItem="ugq-8d-Ef4" firstAttribute="leading" secondItem="PbE-Lp-FMs" secondAttribute="leading" constant="20" symbolic="YES" id="DuB-1z-inj"/>
                                         <constraint firstAttribute="trailing" secondItem="ugq-8d-Ef4" secondAttribute="trailing" constant="20" symbolic="YES" id="gk9-OL-E0B"/>
@@ -54,10 +55,11 @@
                                         <constraint firstItem="ugq-8d-Ef4" firstAttribute="top" secondItem="PbE-Lp-FMs" secondAttribute="top" id="snz-gS-zDH"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <outlet property="nameSymbolLabel" destination="cPp-ft-iZw" id="p3l-ET-pSy"/>
                                     <outlet property="symbolLabel" destination="47b-dG-BW1" id="Pkg-n0-Gw8"/>
+                                    <segue destination="bM8-Fi-G9v" kind="show" identifier="ShowElements" id="lrh-wf-seu"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -70,7 +72,63 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VHX-ZV-sBL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-15.199999999999999" y="161.46926536731635"/>
+            <point key="canvasLocation" x="-215" y="161"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="aLu-pH-Naj">
+            <objects>
+                <viewController id="bM8-Fi-G9v" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="efB-1H-dr7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LfD-PJ-JLh">
+                                <rect key="frame" x="59" y="138.5" width="257" height="390"/>
+                                <subviews>
+                                    <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="70" translatesAutoresizingMaskIntoConstraints="NO" id="52q-A6-aJt">
+                                        <rect key="frame" x="56.5" y="20" width="144.5" height="350"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Au" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z4k-gk-S0D">
+                                                <rect key="frame" x="36" y="0.0" width="72.5" height="70"/>
+                                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="60"/>
+                                                <color key="textColor" red="0.57589191200000001" green="0.10673265899999999" blue="0.21451479200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gold" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NEP-wO-6CQ">
+                                                <rect key="frame" x="0.0" y="140" width="144.5" height="70"/>
+                                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="60"/>
+                                                <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="79" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9U-hl-xdD">
+                                                <rect key="frame" x="36" y="280" width="72.5" height="70"/>
+                                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="60"/>
+                                                <color key="textColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="390" id="KgM-Fd-9NG"/>
+                                    <constraint firstItem="52q-A6-aJt" firstAttribute="centerX" secondItem="LfD-PJ-JLh" secondAttribute="centerX" id="eaE-uJ-0b9"/>
+                                    <constraint firstItem="52q-A6-aJt" firstAttribute="centerY" secondItem="LfD-PJ-JLh" secondAttribute="centerY" id="mAb-wN-EK6"/>
+                                    <constraint firstAttribute="width" constant="257" id="o4B-d6-exq"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="LfD-PJ-JLh" firstAttribute="centerX" secondItem="efB-1H-dr7" secondAttribute="centerX" id="XdZ-bP-9FE"/>
+                            <constraint firstItem="LfD-PJ-JLh" firstAttribute="centerY" secondItem="efB-1H-dr7" secondAttribute="centerY" id="eUc-gi-pjv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="nTB-i9-rHe"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nak-Uo-9lu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="543" y="161"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Alr-5l-ZWc">
