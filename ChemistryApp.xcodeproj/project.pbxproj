@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C4ADDDC2177D43100FE12B4 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4ADDDB2177D43100FE12B4 /* CustomView.swift */; };
 		1C9D6C6921777D63003D97B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9D6C6821777D63003D97B6 /* AppDelegate.swift */; };
 		1C9D6C6E21777D63003D97B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C9D6C6C21777D63003D97B6 /* Main.storyboard */; };
 		1C9D6C7021777D64003D97B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C9D6C6F21777D64003D97B6 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C4ADDDB2177D43100FE12B4 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		1C9D6C6521777D63003D97B6 /* ChemistryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChemistryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C9D6C6821777D63003D97B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C9D6C6D21777D63003D97B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				1C9D6C7E217784F3003D97B6 /* ChemicalCell.swift */,
 				1C9D6C6C21777D63003D97B6 /* Main.storyboard */,
 				1C9D6C7121777D64003D97B6 /* LaunchScreen.storyboard */,
+				1C4ADDDB2177D43100FE12B4 /* CustomView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C4ADDDC2177D43100FE12B4 /* CustomView.swift in Sources */,
 				1C9D6C7D21778254003D97B6 /* ElementsTableViewController.swift in Sources */,
 				1C9D6C6921777D63003D97B6 /* AppDelegate.swift in Sources */,
 				1C9D6C7B217780B6003D97B6 /* ChemicalElement.swift in Sources */,
