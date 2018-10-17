@@ -58,16 +58,48 @@
 		1C9D6C6721777D63003D97B6 /* ChemistryApp */ = {
 			isa = PBXGroup;
 			children = (
-				1C9D6C6821777D63003D97B6 /* AppDelegate.swift */,
-				1C9D6C6C21777D63003D97B6 /* Main.storyboard */,
-				1C9D6C6F21777D64003D97B6 /* Assets.xcassets */,
-				1C9D6C7121777D64003D97B6 /* LaunchScreen.storyboard */,
+				1C9D6C82217790BE003D97B6 /* Model */,
+				1C9D6C81217790B6003D97B6 /* View */,
+				1C9D6C80217790AB003D97B6 /* Controller */,
+				1C9D6C83217790EF003D97B6 /* Resources */,
 				1C9D6C7421777D64003D97B6 /* Info.plist */,
-				1C9D6C7A217780B6003D97B6 /* ChemicalElement.swift */,
-				1C9D6C7C21778254003D97B6 /* ElementsTableViewController.swift */,
-				1C9D6C7E217784F3003D97B6 /* ChemicalCell.swift */,
 			);
 			path = ChemistryApp;
+			sourceTree = "<group>";
+		};
+		1C9D6C80217790AB003D97B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1C9D6C7C21778254003D97B6 /* ElementsTableViewController.swift */,
+				1C9D6C6821777D63003D97B6 /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1C9D6C81217790B6003D97B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1C9D6C7E217784F3003D97B6 /* ChemicalCell.swift */,
+				1C9D6C6C21777D63003D97B6 /* Main.storyboard */,
+				1C9D6C7121777D64003D97B6 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1C9D6C82217790BE003D97B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1C9D6C7A217780B6003D97B6 /* ChemicalElement.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1C9D6C83217790EF003D97B6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1C9D6C6F21777D64003D97B6 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
